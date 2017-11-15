@@ -11,7 +11,6 @@ public class collegeMatch{
 
   public static String [][] readFile() throws FileNotFoundException{
     File file = new File("FinalData.csv");
-
     Scanner console = new Scanner(file);
     console.next();
     int dataSize = 1492;
